@@ -1,0 +1,39 @@
+.navbar {
+    color: #5f2a9c;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.Titulo  {
+    font-family: Forum;
+}
+
+.explicacion {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-menu-link {
+    color: var(--dark-light);
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+    .nav-menu-ul {
+        color: #3f2a9c;
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        overflow: visible;
+        margin: 0;
+        margin-right: 6rem;
+    }
+
+    .nav-menu-link {
+        font-weight: bold;
+    }
